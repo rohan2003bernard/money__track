@@ -1,0 +1,265 @@
+#top_bar{
+    width: 100%;
+    background: lightblue;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+input{
+    border-radius: 15px;
+}
+
+textarea{
+    border-radius: 15px;
+}
+
+#top_bar label{
+    color: blueviolet;
+}
+
+#container{
+    background: grey;
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    height: 630px;
+    top: 105px;
+    
+}
+
+#amount{
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 40px;
+    font-size: 25px;
+}
+
+#amount_label{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    font-size: 35px;
+}
+
+#source{
+    background: white;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    height: 40px;
+    font-size: 25px;
+}
+
+#source_label{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    font-size: 35px;
+}
+
+#reason{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    height: 180px;
+    resize: none;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));     
+    font-size: 25px;
+}
+
+#reason_label{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 35px;
+}
+
+#submit{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 85%;
+    font-size: 20px;
+    left: 40%;
+    border-radius: 35px;
+    background: linear-gradient(87deg, #77e766, #a7e548);
+}
+
+#submit:hover{
+    background: rgb(255, 255, 12);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button#clr_btn{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 85%;
+    font-size: 20px;
+    left: 60%;
+    background: linear-gradient(87deg, #77e766, #a7e548);
+    border-radius: 35px;
+}
+
+#message{
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    background: rgb(54, 130, 237);
+    width: 34%;
+    
+    height: 35%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#ok{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#nav{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    background: black;
+    overflow: hidden;
+}
+    
+#nav ul{
+    padding: 0;
+    position: absolute;
+    top: 34px;
+}
+
+#nav a{
+    float: left;
+    padding: 1% 50px;
+    background-color: rgb(129, 255, 127);
+    color: white;   
+    width: 255px;
+    height: 55px;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;    
+    
+}
+
+a{
+    text-decoration: none;
+    width: 20px;
+}
+
+#nav a:hover{
+    background: linear-gradient(87deg, #a466e7, #e5a148);
+    font-size: 30px;
+    transition: 0.5s;
+    color: red;
+    border-bottom-left-radius: 77px;
+    border-bottom-right-radius: 77px;
+}
+
+button#clr_btn:hover{
+    background: rgb(255, 255, 12);
+}
+
+#nav a.active{
+    background: rgb(94, 204, 21);
+    color: red;
+    font-size: 27px;
+    border-bottom-left-radius: 77px;
+    border-bottom-right-radius: 77px;
+}
+
+tbody{
+    background: lightpink;
+    padding: 50px;
+
+    
+}
+
+#dis_tab{
+    background: lightpink;
+    padding: 1px;
+    position: absolute;
+    font-family: cursive;
+    font-size: 25px;
+    top: 100px;
+    right: 10%;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th,td{
+    border: 2px solid black;
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    
+}
+
+.total_sum{
+    width: 100px;
+    text-align: center;
+    border-right: 0;
+    border-left: 0;
+    
+}
+
+tab_nav{
+    
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    border: 25px;
+    justify-content: space-between;
+    
+    align-content: center;
+    text-align: center;
+    
+    width: 100%;
+    padding-top: 25px;
+    
+}
+
+tab_nav a{
+    background: firebrick;
+    border-radius: 25px;
+    height: 60px;
+    text-align: center;
+    width: 20%;
+}
+
+tab_nav :hover{
+    background: yellow;
+
+}
